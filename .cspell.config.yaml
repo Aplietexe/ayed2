@@ -7,3 +7,5 @@ enableGlobDot: true
 allowCompoundWords: true
 useGitignore: true
 language: en,es-ES
+words:
+  - mybool
