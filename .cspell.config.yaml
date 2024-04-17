@@ -8,4 +8,5 @@ allowCompoundWords: true
 useGitignore: true
 language: en,es-ES
 words:
+  - january
   - mybool
