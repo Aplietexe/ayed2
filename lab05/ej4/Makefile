@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -Werror -Wextra -pedantic -std=c99 -g
+CFLAGS = -Wall -Werror -Wextra -pedantic -std=c99 -g -fsanitize=address,undefined
 SOURCES = stack.c hanoi.c main.c
 OBJECTS = $(SOURCES:.c=.o)
 TARGET = solve-hanoi
