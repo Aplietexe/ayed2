@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -Werror -Wextra -pedantic -std=c99 -g
+CFLAGS = -Wall -Werror -Wextra -pedantic -std=c99 -fsanitize=address,undefined -g
 SOURCES = ../stack.c reverse.c array_helpers.c
 OBJECTS = $(SOURCES:.c=.o)
 TARGET = reverse
