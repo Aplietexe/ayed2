@@ -2,9 +2,10 @@
 #define _QUEUE_H_
 
 #include <stdbool.h>
+#include <stdio.h>
 #include <stdlib.h>
 
-typedef struct s_queue * queue;
+typedef struct s_queue* queue;
 
 typedef int queue_elem;
 
@@ -59,7 +60,7 @@ queue queue_dequeue(queue q);
  *
  */
 
-void queue_dump(queue q, FILE *file);
+void queue_dump(queue q, FILE* file);
 /*
  * DESC: Dumps content of q in to the file pointed by 'file'
  *
@@ -67,7 +68,6 @@ void queue_dump(queue q, FILE *file);
  *  q = queue_dump(q, file);
  *
  */
-
 
 queue queue_destroy(queue q);
 /*

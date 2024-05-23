@@ -20,6 +20,7 @@
         "tuple": "c",
         "type_traits": "c",
         "utility": "c",
-        "strfuncs.h": "c"
+        "strfuncs.h": "c",
+        "queue.h": "c"
     }
 }
